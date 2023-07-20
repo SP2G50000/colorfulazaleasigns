@@ -3,9 +3,9 @@
   "id": "colorfulazaleasigns",
   "version": "${version}",
 
-  "name": "colorfulazaleasigns",
-  "description": "",
-  "authors": [],
+  "name": "Signs for Colorful Azaleas",
+  "description": "A mod that adds the missing sign variant for each new wood type for each new wood type introduced in Colorful Azaleas.",
+  "authors": ["SP2G50000"],
   "contact": {},
 
   "license": "MIT",

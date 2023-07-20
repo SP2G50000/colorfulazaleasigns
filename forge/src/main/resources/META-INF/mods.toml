@@ -11,7 +11,7 @@ loaderVersion="[43,)" #mandatory This is typically bumped every Minecraft versio
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="MIT"
 # A URL to refer people to when problems occur with this mod
-issueTrackerURL="https://SP2G50000/colorfulazaleasigns/issues"
+issueTrackerURL="https://github.com/SP2G50000/colorfulazaleasigns/issues"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
@@ -21,7 +21,7 @@ modId="colorfulazaleasigns" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="${version}" #mandatory
 # A display name for the mod
-displayName="colorfulazaleasigns" #mandatory
+displayName="Signs for Colorful Azaleas" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 #updateJSONURL="http://myurl.me/" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -42,7 +42,7 @@ logoFile="icon.png" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-
+A mod that adds the missing sign variant for each new wood type for each new wood type introduced in Colorful Azaleas.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.colorfulazaleasigns]] #optional
