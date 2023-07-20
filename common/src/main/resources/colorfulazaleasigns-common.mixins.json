@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sp2g.colorfulazaleasigns.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "WoodTypeInvoker"
+  ],
+  "client": [
+    "client.BlockEntityRenderersInvoker"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

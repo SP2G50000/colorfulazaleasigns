@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "colorfulazaleasigns",
+  "version": "${version}",
+
+  "name": "colorfulazaleasigns",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sp2g.colorfulazaleasigns.fabric.ColorfulAzaleaSignsFabric"
+    ],
+    "client": [
+      "com.sp2g.colorfulazaleasigns.fabric.ColorfulAzaleasSignsClientFabric"
+    ]
+  },
+  "mixins": [
+    "colorfulazaleasigns.mixins.json",
+    "colorfulazaleasigns-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": ">=1.19.2"
+  }
+}
